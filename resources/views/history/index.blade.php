@@ -15,9 +15,6 @@
 	@foreach($history as $h)
 		<tr>
 			<td>
-				{{$h->hid}}
-			</td>
-			<td>
 				{{$h->area}}
 			</td>
 			<td>

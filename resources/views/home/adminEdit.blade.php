@@ -15,16 +15,19 @@
 		</tr>
 		<tr>
 			<td>Name</td>
-			<td>{{$admin->name}}</td>
-			<input type="hidden" name="name" value="{{$admin->name}}">
+			<td><input type="text" name="name" value="{{$admin->name}}"></td>
 		</tr>
 		<tr>
 			<td>User Name</td>
-			<td><input type="text" name="username" value="{{$admin->username }}"></td>
+			<td><input type="text" name="username" value="{{$admin->username}}"></td>
 		</tr>
 		<tr>
-			<td>Type</td>
-			<td><input type="text" name="type" value="{{$admin->type }}"></td>
+			<td>Email</td>
+			<td><input type="text" name="email" value="{{$admin->email}}"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" value="{{$admin->password}}"></td>
 		</tr>
 		<tr>
 			<td><input type="submit" name="submit" value="Save" /></td>

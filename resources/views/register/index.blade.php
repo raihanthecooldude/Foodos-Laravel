@@ -51,13 +51,10 @@
 				</span>
 			</td>
 		</tr>
-		<!--<tr>-->
-		<!--<td><p style="line-height: 1.6; font-family: Calibri; font-size: 20px; color: black;">Re-type Password</p></td>-->
-		<!--<td>: <input type="password" name="rpassword"></td>-->
-		<!--</tr>-->
 		<tr>
 			<td>&nbsp</td>
-			<td><button type="submit" name="signup">Create User</button></td></tr>
+			<td><button type="submit" name="signup">Create User</button></td>
+		</tr>
 	</table>
 </form>
 </body>

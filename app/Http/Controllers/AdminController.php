@@ -48,9 +48,11 @@ class AdminController extends Controller
     public function update (Request $request, $aid)
     {
         $admin = Admin::find($aid);
-        
+	
+	    $admin->name        = $request->name;
         $admin->username    = $request->username;
-        $admin->type        = $request->type;
+        $admin->email       = $request->email;
+        $admin->password    = $request->password;
         
         $admin->save();
         
